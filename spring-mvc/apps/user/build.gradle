@@ -1,0 +1,36 @@
+project.ext.set('moduleName', 'trim')
+
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'war'
+
+war.doFirst {
+
+
+    println project.path + ':war - Coping npm dist to webapp'
+    copy {
+        from 'src/main/angular/dist'
+        into 'src/main/webapp/'
+        include '**/**'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    providedCompile 'javax.servlet:servlet-api:2.5'
+    compile group: 'org.springframework', name: 'spring-core', version: springVersion
+    compile group: 'org.springframework', name: 'spring-beans', version: springVersion
+    compile group: 'org.springframework', name: 'spring-aop', version: springVersion
+    compile group: 'org.springframework', name: 'spring-context', version: springVersion
+    compile group: 'org.springframework', name: 'spring-web', version: springVersion
+    compile group: 'org.springframework', name: 'spring-webmvc', version: springVersion
+    compile group: 'org.codehaus.jackson', name: 'jackson-mapper-asl', version: jacksonVersion
+    /*compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: fasterxmljacksonsub
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: fasterxmljackson
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: fasterxmljackson*/
+}
