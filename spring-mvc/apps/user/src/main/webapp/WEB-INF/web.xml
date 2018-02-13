@@ -8,8 +8,11 @@
 	<display-name>IBE</display-name>
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
-		<param-value>remote-services.xml</param-value>
+		<param-value>WEB-INF/remote-services.xml</param-value>
 	</context-param>
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
 	<servlet>
 		<servlet-name>controller</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>

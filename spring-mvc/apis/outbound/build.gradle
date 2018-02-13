@@ -1,0 +1,7 @@
+project.ext.set('moduleName', 'outbound')
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'war'
+

@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/modules/apps/apps.iml" filepath="$PROJECT_DIR$/modules/apps/apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apis/apis.iml" filepath="$PROJECT_DIR$/apis/apis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/apps.iml" filepath="$PROJECT_DIR$/apps/apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/user/apps-user.iml" filepath="$PROJECT_DIR$/apps/user/apps-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cartridges/cartridges.iml" filepath="$PROJECT_DIR$/cartridges/cartridges.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cartridges/user/cartridges-user.iml" filepath="$PROJECT_DIR$/cartridges/user/cartridges-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apis/outbound/outbound.iml" filepath="$PROJECT_DIR$/apis/outbound/outbound.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/service-engine/service-engine.iml" filepath="$PROJECT_DIR$/apps/service-engine/service-engine.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-mvc.iml" filepath="$PROJECT_DIR$/spring-mvc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/modules/apps/user/user.iml" filepath="$PROJECT_DIR$/modules/apps/user/user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cartridges/user/user.iml" filepath="$PROJECT_DIR$/cartridges/user/user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/user/userapp.iml" filepath="$PROJECT_DIR$/apps/user/userapp.iml" />
     </modules>
   </component>
 </project>

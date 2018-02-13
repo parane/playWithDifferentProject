@@ -10,9 +10,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/modules" />
-            <option value="$PROJECT_DIR$/modules/apps" />
-            <option value="$PROJECT_DIR$/modules/apps/user" />
+            <option value="$PROJECT_DIR$/apis" />
+            <option value="$PROJECT_DIR$/apis/outbound" />
+            <option value="$PROJECT_DIR$/apps" />
+            <option value="$PROJECT_DIR$/apps/service-engine" />
+            <option value="$PROJECT_DIR$/apps/user" />
+            <option value="$PROJECT_DIR$/cartridges" />
+            <option value="$PROJECT_DIR$/cartridges/user" />
           </set>
         </option>
       </GradleProjectSettings>

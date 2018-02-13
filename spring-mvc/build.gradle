@@ -1,4 +1,4 @@
-project.ext.set('moduleName', 'trim')
+project.ext.set('moduleName', 'sample')
 
 
 apply plugin: 'java'
@@ -18,5 +18,5 @@ dependencies {
     compile group: 'org.springframework', name: 'spring-context', version: springVersion
     compile group: 'org.springframework', name: 'spring-web', version: springVersion
     compile group: 'org.springframework', name: 'spring-webmvc', version: springVersion
-    compile group: 'org.codehaus.jackson', name: 'jackson-mapper-asl', version: jacksonVersion
+    /*compile group: 'org.codehaus.jackson', name: 'jackson-mapper-asl', version: jacksonVersion*/
 }
